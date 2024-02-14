@@ -130,10 +130,10 @@
 //Question 12
 //Write a function areBothEven that takes two numbers as parameters and returns true only if both numbers are even. 
 
-function areBothEven(num1, num2) {
-    return num1 % 2 === 0 && num2 % 2 === 0;
-}
-console.log(areBothEven(24, 88));
+// function areBothEven(num1, num2) {
+//     return num1 % 2 === 0 && num2 % 2 === 0;
+// }
+// console.log(areBothEven(24, 88));
 
 //ran a true and false successfully
 
