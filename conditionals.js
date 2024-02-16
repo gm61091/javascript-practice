@@ -6,11 +6,11 @@
 // }
 // ```
 //example
-// let age = 25;
+let age = 25;
 
-// if (age > 21) {
-//     console.log('you can buy beer!');
-// }
+if (age > 21) {
+    console.log('you can buy beer!');
+}
 // returns string
 
 // ### If/Else Statement
@@ -23,14 +23,14 @@
 // }
 // ```
 //example
-// let age = 34;
+let age = 34;
 
-// if (age < 21) {
-//     console.log('you are not old enough to buy alcohol');
-// }
-// else{
-//     console.log('you may buy a beer');
-// }
+if (age < 21) {
+    console.log('you are not old enough to buy alcohol');
+}
+else{
+    console.log('you may buy a beer');
+}
 
 // worked for above 21 and below
 
@@ -47,20 +47,20 @@
 // ```
 //example
 
-// let kd = .76;
+let kd = .76;
 
-// if (kd >= .75) {
-//     console.log('you have a good kd!');
-// }
-// else if (kd >= .50) {
-//     console.log('your kd is not very good..');
-// }
-// else if (kd >= .25) {
-//     console.log('your kd is trash.');
-// }
-// else {
-//     console.log('you should probably find  a new game or hobby.');
-// }
+if (kd >= .75) {
+    console.log('you have a good kd!');
+}
+else if (kd >= .50) {
+    console.log('your kd is not very good..');
+}
+else if (kd >= .25) {
+    console.log('your kd is trash.');
+}
+else {
+    console.log('you should probably find  a new game or hobby.');
+}
 
 //all statements worked in node
 
@@ -78,22 +78,22 @@
 // }
 // ```
 
-// let temperature = 76;
-// let timeOfDay = 'evening';
+let temperature = 76;
+let timeOfDay = 'evening';
 
-// if (temperature <= 75) {
-//     console.log('Its so nice out!');
+if (temperature <= 75) {
+    console.log('Its so nice out!');
 
-//     if (timeOfDay === 'evening') {
-//         console.log('good evening!');
-//     }
-//     else {
-//         console.log('good day sir!')
-//     }
-// }
-// else {
-//     console.log('its hot out here!');
-// }
+    if (timeOfDay === 'evening') {
+        console.log('good evening!');
+    }
+    else {
+        console.log('good day sir!')
+    }
+}
+else {
+    console.log('its hot out here!');
+}
 
 // questions for dez - variable values need to be strings for words?
 
@@ -106,11 +106,11 @@
 // let result = (condition) ? trueValue : falseValue;
 // ```
 
-// let sunOut = false;
+let sunOut = false;
 
-// let message = sunOut ? "GUNS OUT!" : "i guess i will stay inside.";
+let message = sunOut ? "GUNS OUT!" : "i guess i will stay inside.";
 
-// console.log(message);
+console.log(message);
 
 // true and false worked
 //question - is this a better way than the if else?
@@ -124,13 +124,13 @@
 // ```
 
 
-// let isNotSunday = false;
-// let isOpen = false;
+let isNotSunday = false;
+let isOpen = false;
 
-// let getChikfila = (isNotSunday) ? (isOpen ? 'Praise be to god we can have Chikfila!' : 'we have to wait for it to open...')
-//  : 'we can still go to freddys!';
+let getChikfila = (isNotSunday) ? (isOpen ? 'Praise be to god we can have Chikfila!' : 'we have to wait for it to open...')
+ : 'we can still go to freddys!';
 
-//  console.log(getChikfila);
+ console.log(getChikfila);
 
  // all options worked for true and false on both variables
  //questions - the paranthesis on the last string why isnt it needed?
@@ -142,25 +142,25 @@
 //   return (parameter === 42) ? "Answer to the Ultimate Question of Life, the Universe, and Everything" : "Not the answer";
 // }
 // ```
-//example
-// function isEven(number) {
-//     return (number % 2 === 0) ? 'the number is even' : 'the number is odd'
-// }
-//console.log(isEven(4));
-//console.log(isEven(9));
+example
+function isEven(number) {
+    return (number % 2 === 0) ? 'the number is even' : 'the number is odd'
+}
+console.log(isEven(4));
+console.log(isEven(9));
 
 //arrow function example
-// const isEven = (number) => (number % 2 === 0 ? 'even' : 'odd');
+const isEven = (number) => (number % 2 === 0 ? 'even' : 'odd');
 
-//console.log(isEven(4));
-// console.log(isEven(7));
+console.log(isEven(4));
+console.log(isEven(7));
 
 // questions - why no curly boys??
 
 // ### Using Ternary Operator for Assignment
 
 // ```javascript
-// let status = (isOnline) ? "Online" : "Offline";
+let status = (isOnline) ? "Online" : "Offline";
 // ```
 // question is what is even happening?
 
