@@ -49,6 +49,7 @@ console.log(isCaps('heLlo'));
 console.log(isCaps('hola'));
 console.log(isCaps('HELLO'));
 //no questions
+//
 
 // Create a function that takes an array of numbers and returns a new array containing only the even numbers, using a ternary operator.
 //dez code 
