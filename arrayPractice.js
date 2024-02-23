@@ -49,15 +49,17 @@
 // }
 // console.log(shortest(['gary', 'cameron', 'kathy', 'callie', 'stephanie']));
 
+// //dez notes - write a for loop instead of the short.length - long.length
+
 // // Write a function that takes an array of numbers and returns the product of all the numbers, using the reduce method.
 
 // function productOf(numbers) {
-//     return numbers.reduce((product, numbers) => product * numbers, 1); //why is this not set to 0? instead of one
+//     return numbers.reduce((product, numbers) => product * numbers, 1); 
 // }
 // console.log(productOf([2, 4, 6, 7, 10]));
 // // question - im just having issues with the last part.
 
-// // Create a function that takes an array of strings and returns a new array with only the strings that contain the letter 'a', using the filter method.
+// Create a function that takes an array of strings and returns a new array with only the strings that contain the letter 'a', using the filter method.
 
 // function findA(string) {
 //     return string.filter(string => string.includes('a'));

@@ -113,6 +113,8 @@ console.log(squareNum(56, -3));
 // Create a function that takes an array of strings and returns a new array with only the strings that have a length of at least 5 characters, using a ternary operator.
 
 function isTooLong(array) {
+/* This line of code is using the `reduce` method on the `array` to filter out strings that have a
+length of at least 5 characters. */
     return array.reduce((result, string) => string.length >= 5 ? result.concat(string) : result, []);
 }
 console.log(isTooLong(['shshsh', 'testest', 'wow']));
