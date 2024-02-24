@@ -155,7 +155,7 @@ for (let key in person) {
 
 
 for...of loop:
-The for...of loop is introduced in ECMAScript 6 (ES6) and is used to iterate over iterable objects, such as arrays and strings.
+The for...of loop is introduced in ECMAScript 6 (ES6) and is used to iterate over iterable, such as arrays and strings.
 
 const colors = ['red', 'green', 'blue'];
 for (let color of colors) {
