@@ -1,4 +1,4 @@
- ## Introduction to the DOM (Document Object Model)
+ <!-- ## Introduction to the DOM (Document Object Model)
 
 The Document Object Model (DOM) is like a tree that represents the structure of a web page. Imagine the web page as a tree with branches and leaves. Each branch and leaf corresponds to an element on the web page, such as headings, paragraphs, images, buttons, and more. These elements are called nodes in the DOM tree.
 
@@ -191,3 +191,73 @@ Instructions:
 2. Retrieve the value entered in `nameInput` and store it in a variable called `name`.
 3. Select the input element with the ID "emailInput" and store it in a variable called `emailInput`.
 4. Set the value of `emailInput` to "example@example.com".
+
+
+Document Object Model (DOM) in JavaScript Study Sheet
+1. What is the DOM?
+The Document Object Model (DOM) is a programming interface for web documents.
+It represents the structure of a document as a tree of objects, where each object corresponds to an element in the HTML document.
+2. DOM Elements:
+Nodes:
+
+Nodes are the building blocks of the DOM.
+Types of nodes: Element nodes, Attribute nodes, Text nodes, etc.
+Element Nodes:
+
+Represent HTML elements.
+Access using methods like getElementById, getElementsByTagName, getElementsByClassName, querySelector, etc.
+3. Accessing and Modifying Elements:
+Selecting Elements:
+
+document.getElementById(id)
+document.getElementsByTagName(tagName)
+document.getElementsByClassName(className)
+document.querySelector(selector)
+Modifying Elements:
+
+element.innerHTML: Gets or sets the HTML content of an element.
+element.textContent: Gets or sets the text content of an element.
+element.setAttribute(name, value): Sets the value of an attribute.
+element.style.property: Access and modify the inline style of an element.
+4. Manipulating Classes:
+element.classList.add(className): Adds a class to an element.
+element.classList.remove(className): Removes a class from an element.
+element.classList.toggle(className): Toggles a class on/off.
+element.classList.contains(className): Checks if an element has a specific class.
+5. Traversing the DOM:
+Parent, Child, and Sibling Nodes:
+parentNode: Access the parent node of an element.
+childNodes: Access the child nodes of an element.
+nextSibling, previousSibling: Access the next or previous sibling of an element.
+6. Creating and Deleting Elements:
+document.createElement(tagName): Creates a new element.
+parentNode.appendChild(newNode): Appends a child node to a parent node.
+parentNode.removeChild(childNode): Removes a child node from a parent node.
+7. Events and Event Handling:
+Event Types:
+
+Common events: click, mouseover, mouseout, keydown, keyup, etc.
+Event Handling:
+
+element.addEventListener(eventType, callback): Adds an event listener to an element.
+event.stopPropagation(): Stops the event from propagating to parent elements.
+event.preventDefault(): Prevents the default behavior of an event.
+8. Window Object:
+window.document: Reference to the DOM document.
+window.innerWidth, window.innerHeight: Dimensions of the browser window.
+window.location: Information about the current URL.
+9. Asynchronous Operations:
+setTimeout and setInterval:
+
+setTimeout(callback, time): Executes a function after a specified time.
+setInterval(callback, time): Repeatedly executes a function at specified intervals.
+AJAX and Fetch API:
+
+fetch(url): Initiates a request to a specified URL.
+Handles responses using promises.
+10. Cross-Browser Compatibility:
+Be aware of browser differences and use feature detection or polyfills when necessary.
+Practice and Examples:
+Practice manipulating elements and responding to events using the DOM.
+Create small projects to solidify your understanding of DOM manipulation.
+Explore real-world scenarios and challenges to enhance your skills. -->
